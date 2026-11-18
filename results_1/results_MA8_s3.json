@@ -1,0 +1,38 @@
+{
+  "params": {
+    "lam": 8.0,
+    "eta": 1.0,
+    "xi": 0.5,
+    "beta": 0.5,
+    "k": 1.0,
+    "branch": "free"
+  },
+  "iterations": {
+    "adam": 0,
+    "lbfgs": 10000
+  },
+  "U_exact": 0.05206597236935612,
+  "U_pinn": -0.2011195700477175,
+  "U_rel_err": 4.862783328446741,
+  "L2_interior": 3.990883571089288,
+  "L2_exterior": 218.12397418697682,
+  "zeta_spurious_interior": 4.102689989309236e-05,
+  "zeta_spurious_exterior": 0.004963565000487248,
+  "loss_terms": {
+    "interior": 1.377318137892803e-07,
+    "exterior": 3.1727742291387664e-06,
+    "slip": 1.8566557463223872e-09,
+    "stress": 1.720635257241669e-09
+  },
+  "force_profile": {
+    "R=1": 0.9723596106013274,
+    "R=1.5": 0.9725161168039268,
+    "R=2": 0.9722967351212896,
+    "R=5": 0.9702104941806237,
+    "R=10": 0.9629297494422102,
+    "R=20": 0.950086516434558
+  },
+  "force_profile_note": "F(R)/(6 pi |U|); zero at every R for a force-free particle",
+  "resid_interior": 9.234749008247406e-07,
+  "resid_exterior": 0.1834885945577808
+}
